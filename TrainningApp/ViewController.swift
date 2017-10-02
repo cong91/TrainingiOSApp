@@ -27,7 +27,6 @@ class ViewController: UIViewController {
             return;
         }
         print("đéo được đi đâu hết ở đây ");
-        
     }
 
 
