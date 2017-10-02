@@ -10,10 +10,10 @@
 		02D2B0DE1F7CD39100FE347E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D2B0DD1F7CD39100FE347E /* AppDelegate.swift */; };
 		02D2B0E01F7CD39100FE347E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D2B0DF1F7CD39100FE347E /* ViewController.swift */; };
 		02D2B0E31F7CD39100FE347E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02D2B0E11F7CD39100FE347E /* Main.storyboard */; };
-		02D2B0E51F7CD39100FE347E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02D2B0E41F7CD39100FE347E /* Assets.xcassets */; };
 		02D2B0E81F7CD39100FE347E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02D2B0E61F7CD39100FE347E /* LaunchScreen.storyboard */; };
 		02D2B0F31F7CD39100FE347E /* TrainningAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D2B0F21F7CD39100FE347E /* TrainningAppTests.swift */; };
 		02D2B0FE1F7CD39100FE347E /* TrainningAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D2B0FD1F7CD39100FE347E /* TrainningAppUITests.swift */; };
+		02D2B10C1F7CE2D600FE347E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02D2B10B1F7CE2D600FE347E /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,6 @@
 		02D2B0DD1F7CD39100FE347E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		02D2B0DF1F7CD39100FE347E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		02D2B0E21F7CD39100FE347E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		02D2B0E41F7CD39100FE347E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02D2B0E71F7CD39100FE347E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		02D2B0E91F7CD39100FE347E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02D2B0EE1F7CD39100FE347E /* TrainningAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrainningAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +46,7 @@
 		02D2B0F91F7CD39100FE347E /* TrainningAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrainningAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		02D2B0FD1F7CD39100FE347E /* TrainningAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainningAppUITests.swift; sourceTree = "<group>"; };
 		02D2B0FF1F7CD39100FE347E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02D2B10B1F7CE2D600FE347E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +100,9 @@
 				02D2B0DD1F7CD39100FE347E /* AppDelegate.swift */,
 				02D2B0DF1F7CD39100FE347E /* ViewController.swift */,
 				02D2B0E11F7CD39100FE347E /* Main.storyboard */,
-				02D2B0E41F7CD39100FE347E /* Assets.xcassets */,
 				02D2B0E61F7CD39100FE347E /* LaunchScreen.storyboard */,
 				02D2B0E91F7CD39100FE347E /* Info.plist */,
+				02D2B10B1F7CE2D600FE347E /* Assets.xcassets */,
 			);
 			path = TrainningApp;
 			sourceTree = "<group>";
@@ -233,7 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				02D2B0E81F7CD39100FE347E /* LaunchScreen.storyboard in Resources */,
-				02D2B0E51F7CD39100FE347E /* Assets.xcassets in Resources */,
+				02D2B10C1F7CE2D600FE347E /* Assets.xcassets in Resources */,
 				02D2B0E31F7CD39100FE347E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -425,7 +425,7 @@
 		02D2B1031F7CD39100FE347E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TrainningApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -439,7 +439,7 @@
 		02D2B1041F7CD39100FE347E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TrainningApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
